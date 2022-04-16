@@ -180,6 +180,7 @@ body {
   line-height: 1.5;
   color: #555;
   font-family: 'Lato', sans-serif;
+  background-color: lightgray;
 }
 
 a {
@@ -2964,6 +2965,14 @@ img.lazy:not([src]) {
   height: auto;
   overflow: hidden;
   -webkit-backface-visibility: hidden;
+}
+
+.fslider {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 .fslider.h-100 .flexslider,
